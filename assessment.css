@@ -1,0 +1,24 @@
+/* 背景色をTwitterのイメージカラー（水色）に設定 [5] */
+body {
+  background-color: #E8F5FD; 
+}
+
+/* 要素の幅を指定し、左右自動余白で中央配置 [6] */
+.assessment-area {
+  width: 500px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* ボタンのデザイン調整 [6, 7] */
+button {
+  padding: 5px 20px;
+  background-color: #1DA1F2;
+  border-style: none;
+  color: #FFFFFF; /* ボタンの文字色を白に変更 [7] */
+}
+
+/* 入力欄の高さをボタンと合わせる [7] */
+input {
+  height: 24px;
+}
