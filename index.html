@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>あなたのいいところ診断</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>あなたのいいところ診断</h1>
+
+    <p>
+      3つの質問に答えて、あなたのいいところを診断してみましょう。
+    </p>
+
+    <h2>質問1</h2>
+    <p>友達が困っているとき、あなたはどうしますか？</p>
+
+    <label>
+      <input type="radio" name="question1" value="2">
+      すぐに助ける
+    </label>
+
+    <label>
+      <input type="radio" name="question1" value="1">
+      話を聞く
+    </label>
+
+    <label>
+      <input type="radio" name="question1" value="0">
+      少し様子を見る
+    </label>
+
+    <h2>質問2</h2>
+    <p>新しいことに挑戦するとき、あなたはどうしますか？</p>
+
+    <label>
+      <input type="radio" name="question2" value="2">
+      すぐに挑戦する
+    </label>
+
+    <label>
+      <input type="radio" name="question2" value="1">
+      調べてから挑戦する
+    </label>
+
+    <label>
+      <input type="radio" name="question2" value="0">
+      慎重に考える
+    </label>
+
+    <h2>質問3</h2>
+    <p>グループで活動するとき、あなたはどの役割が多いですか？</p>
+
+    <label>
+      <input type="radio" name="question3" value="2">
+      みんなを引っ張る
+    </label>
+
+    <label>
+      <input type="radio" name="question3" value="1">
+      周りをサポートする
+    </label>
+
+    <label>
+      <input type="radio" name="question3" value="0">
+      自分の仕事に集中する
+    </label>
+
+    <button onclick="diagnose()">診断する</button>
+
+    <div id="result">
+      ここに診断結果が表示されます。
+    </div>
+
+    <button onclick="resetDiagnosis()">もう一度診断する</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
